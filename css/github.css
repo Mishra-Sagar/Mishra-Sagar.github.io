@@ -1,0 +1,330 @@
+* {
+	
+	margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: "Roboto",Helvetica,Arial,sans-serif;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #1D1D1D;
+	color:#ddd;
+	position: relative;
+    font-size: 16px;
+}
+
+/* ============= Generic CSS ============== */
+
+.section-title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.section-title h2 {
+    position: relative;
+    text-align: center;
+    color: #ddd;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: #129CF3;
+    margin-left: -75px;
+}
+
+
+.section-title p {
+    color: #eee;
+    font-family: 'Roboto',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.div-section {
+    margin-left: auto;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-bottom:50px;
+    box-shadow: 0px 0px 10px #0D0D0D;
+    width:95%;
+    position: relative;
+}
+
+.section-tab-title {
+    display: table;
+    vertical-align: middle;
+    padding:25px 20px;
+    height: 50px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    box-shadow: 0px -10px 10px #0D0D0D;
+    position: absolute;
+    top:-60px;
+    margin-left: 2.5%;
+    margin-top: 10px;
+    z-index: 0;
+
+}
+.section-tab-title h2{
+    font-size: 40px;
+
+}
+
+.col-content {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    
+}
+.col-content h2 {
+    position: relative;
+    text-align: center;
+    color: #ddd;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.col-content h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: #129CF3;
+    margin-left: -75px;
+}
+
+
+/*===================boxy nav================*/
+.boxy-nav-icon,
+.boxy-nav-icon:focus,
+.boxy-nav-icon:visited,
+.boxy-nav-icon {
+	position: fixed;
+	color:#129CF3;
+	top:0px;
+	right: 0px;
+	padding: 10px;
+	-webkit-transition: all 0.5s;
+   	 -moz-transition: all 0.5s;
+   	 -ms-transition: all 0.5s;
+         -o-transition: all 0.5s;
+   	 transition: all 0.5s;
+   	 z-index: 4;
+}
+
+.boxy-nav-icon:hover {
+	color:#eee;
+}
+
+.boxy-nav {
+    height: 100%;
+    width:100%;
+    background-color: rgba(0,0,0,.88);
+    position: fixed;
+    top:0px;
+    padding-top: 60px;
+    left:0;
+    display: none;
+    z-index: 3;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.box-holder {
+	max-width:768px;
+	margin: auto;
+    margin-top: 125px;
+	height: 100vh;
+}
+.menu-item-parent > .menu-item{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	color:#eee;
+	width: 200px;
+	height: 200px;
+	border: 3px solid #bbb;
+	margin-top:40px;
+	margin-left:10px;
+	margin-right:10px;
+	text-align: center;
+	-webkit-transition: all 0.5s;
+   	 -moz-transition: all 0.5s;
+   	 -ms-transition: all 0.5s;
+         -o-transition: all 0.5s;
+   	 transition: all 0.5s;
+    position: relative;
+
+}
+.menu-item-parent {
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+}
+
+.menu-item:hover{
+	background-color: #3d81ff;
+	border:3px solid #3d81ff;
+	text-decoration: none;
+    cursor:pointer;
+    box-shadow: 0px 0px 20px #129CF3;
+
+	
+}
+.menu-item:hover span {
+    opacity: 0;
+}
+.menu-text {
+	font-family: "Helvetica Neue",Helvetica;
+	font-size: 40px;
+	color: #ccc;
+	font-weight: 700;
+
+
+
+}
+
+.inner-box-favicon {
+    font-size: 60px;
+    position: absolute;
+    text-align: center;
+    bottom:60px;
+   /* left:100px; */
+    opacity:0;
+    width:100%;
+}
+.menu-item:hover div.inner-box-favicon {
+    opacity: 1;
+}
+
+.inner-box-favicon-opacity {
+    opacity: 1;
+
+}
+
+.menu-item-selected {
+    background-color: #3d81ff;
+    border:3px solid #3d81ff;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.menu-item-selected span{
+    opacity:0;
+}
+
+/*==================Footer=================*/
+
+
+.generic-footer {
+    
+    box-shadow: 0px 0px 10px #0D0D0D;
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    position: relative;
+    color: #eee;
+    font-size: 18px;
+    padding: 20px;
+
+}
+.generic-footer p:last-child {
+    font-size: 18px;
+}
+.copyright-description {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-sites-container{
+    margin:auto;
+    font-size:40px;
+}
+.social-sites{
+    display: inline-block;
+    margin: 10px 10px;
+    width: 15%;
+    text-align: center;
+
+}
+.social-sites-container .social-sites:hover{
+    filter: brightness(70%);
+}
+
+/*==========Github==========*/
+
+.search-container{
+   
+    margin:30px auto;
+    text-align: center;
+}
+
+.search-container > input {
+    padding: 10px 20px;
+    background-color: #1D1D1D;
+    font-size: 18px;
+    border: 2px solid #129CF3;
+    border-radius: 7px;
+    color: #129CF3;
+}
+.search-container > input:focus, input:hover {
+    box-shadow: 0px 0px 10px #129CF3;
+    -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+     -ms-transition: all 0.5s;
+         -o-transition: all 0.5s;
+     transition: all 0.5s;
+}
+
+.repo-block {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color:#f54d27;
+    padding: 10px 20px;
+    border: 2px solid #f54d27;
+    border-radius:7px;
+    margin: 15px 5px;
+    -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+     -ms-transition: all 0.5s;
+     -o-transition: all 0.5s;
+     transition: all 0.5s;
+
+}
+
+.repo-block:hover{
+    text-decoration: none;
+    background-color: #f54d27;
+    color:#eee;
+    -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+     -ms-transition: all 0.5s;
+     -o-transition: all 0.5s;
+     transition: all 0.5s;
+}
+
+.form-content {
+    text-align: center;
+}

@@ -1,0 +1,207 @@
+
+/* Small Devices */
+@media only screen and (max-width: 767px) {
+  .menu-item-parent > .menu-item {
+    	height: 140px;
+        -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+         -o-transition: all 0.2s;
+     transition: all 0.2s;
+    }
+    .menu-text {
+    	font-size:30px;
+    } 
+    .box-holder {
+    	margin-top:auto;
+    }
+    .section-title {
+    	padding-top: 25px;
+    }
+    .menu-item-parent > .menu-item{
+    line-height: 70px;
+}
+    #introduction {
+    	margin-top:50px;
+    }
+    .inner-box-favicon {
+    	bottom:35px;
+
+    }
+    .boxy-nav{
+    	padding-top: 30px;
+    }
+    .social-sites{
+    display: inline-block;
+    margin: 5px 3%;
+    width: 10%;
+
+}
+ .box-holder {
+    max-width:360px;
+
+}
+.social-sites-container{
+    margin:auto;
+    
+    font-size:30px;
+}
+
+.tool-set-container{
+    width: 100%;
+}
+
+.i-am > h1 {
+    font-size: 36px;
+}
+
+.my-name > h1 {
+    font-size: 36px;
+}
+
+.my-name {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.text-body{
+    font-size: 1.5em;
+}
+.text-editor-wrap {
+    
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+.custom-btn {
+    margin: 5px 5px;
+    
+    padding: 4px 13px;
+    font-size:18px;
+}
+
+.project-block {
+    margin-top: 0px;
+}
+
+.languages-block {
+    width: 90%;
+    margin: auto;
+}
+
+.form-content{
+    padding-top: 10px;
+}
+/*===========list=============*/
+
+.list-container {
+    margin: 40px 40px;
+}
+
+.list-container ul li {
+    margin: 50px 30px;
+
+
+}
+
+.list-container ul li > span{
+    left: -30px;
+}
+.list-container ul li .year span {
+    left: -80px;
+    
+}
+.search-container > input {
+    padding: 5px 10px;
+}
+
+.repo-block {
+    font-size: 14px;
+    font-weight: 400px;
+    padding:5px 10px;
+    margin: 5px 5px;
+}
+
+.form-content label,input,textarea {
+    width: 90%;
+}
+
+.form-content input,textarea{
+     padding: 7px 15px;
+    background-color: #1D1D1D;
+    font-size: 18px;
+    border: 2px solid #129CF3;
+    border-radius: 7px;
+}
+
+}
+/* Small Devices And Tablets */
+@media only screen and (min-width: 768px) and (max-width:992px){
+/*    .social-sites{
+    display: inline-block;
+    margin: 5px 4%;
+    width: 10%;
+
+}
+.social-sites-container{
+    margin:auto;
+    
+    font-size:30px;
+}
+*/
+.boxy-nav{
+        padding-top: 30px;
+    }
+    .menu-item-parent > .menu-item {
+        height: 170px;
+
+    }
+    .box-holder {
+    max-width:500px;
+
+}
+
+.menu-item-parent > .menu-item{
+    line-height: 65px;
+}
+.box-holder {
+        margin-top:auto;
+    }
+    .menu-text {
+        font-size:30px;
+    }
+}
+
+/* Medius Devices , Desktop */
+@media only screen and (min-width: 992px) and (max-width: 1500px){
+    
+    .boxy-nav{
+        padding-top: 30px;
+    }
+    .menu-item-parent > .menu-item {
+        height: 170px;
+        width: 170px;
+
+    }
+    .box-holder {
+    max-width:650px;
+
+}
+
+.menu-item-parent > .menu-item{
+    line-height: 65px;
+}
+.box-holder {
+        margin-top:75px;
+    }
+
+.menu-text {
+        font-size:35px;
+    } 
+}
+
+/* Large Devices, Wide Screen */
+@media only screen and (min-width: 1200px) {
+    
+    
+}
